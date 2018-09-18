@@ -4,6 +4,10 @@ public class ActionForward {
 	private String path;
 	private boolean redirect;
 	
+	public ActionForward(String path) {
+		super();
+		this.path = path;
+	}
 	public ActionForward() {
 		super();		
 	}
